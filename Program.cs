@@ -5,10 +5,10 @@ namespace Drew_CLI {
     class Program {
         static void Main (string[] args) {
             Console.WriteLine ("Please enter the word you would like to replace: ");
-            var wordToFind = Console.ReadLine ();
+            var wordToFind = Console.ReadLine();
 
             Console.WriteLine ("Please enter the word you would like to replace it with: ");
-            var wordToReplace = Console.ReadLine ();
+            var wordToReplace = Console.ReadLine();
 
             try {
                 using var reader = new StreamReader ("input.txt");
